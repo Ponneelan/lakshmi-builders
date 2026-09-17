@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=ai-legible&utm_source=comment&utm_medium=referral&utm_id=88469918-bdff-4f43-89e9-785586cbf66d
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+<meta name="hosting-provider" content="Netlify">
+<meta name="netlify-deploy" content="https://netlify.new/?utm_campaign=ai-legible&amp;utm_source=meta&amp;utm_medium=referral&amp;utm_id=88469918-bdff-4f43-89e9-785586cbf66d">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Lakshmi Builder's & Planner's — structural design, building construction, and civil engineering planning." />
+  <title>Lakshmi Builder's & Planner's | Civil Engineering & Construction</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ========== HEADER / NAVBAR ========== -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="index.html#home" class="nav__brand">
+        <img src="logo.jpeg" alt="" class="nav__brand-logo" aria-hidden="true" />
+        <div class="nav__brand-text">
+          <span class="nav__brand-line nav__brand-line--primary">Lakshmi Builder's</span>
+          <span class="nav__brand-line nav__brand-line--secondary">&amp; PLANNER'S</span>
+        </div>
+      </a>
+      <button class="nav__toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="index.html#home" class="nav__link">Home</a></li>
+        <li><a href="index.html#about" class="nav__link">About</a></li>
+        <li><a href="index.html#services" class="nav__link">Services</a></li>
+        <li><a href="index.html#projects" class="nav__link">Projects</a></li>
+        <li><a href="index.html#contact" class="nav__link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="home">
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="hero__content container">
+        <p class="hero__eyebrow">Lakshmi Builder's & Planner's</p>
+        <h1 class="hero__title">Engineering Precise &amp; Sustainable Spaces</h1>
+        <p class="hero__subtitle">
+          Led by <strong>Er. Ranjith, B.E.</strong> — a qualified Civil Engineer with a B.E. degree,
+          specializing in building construction, structural design, and planning for
+          Lakshmi Builder's &amp; Planner's. Precise engineering, sustainable spaces, built to last.
+        </p>
+        <a href="index.html#projects" class="btn btn--primary">Explore Our Work</a>
+      </div>
+    </section>
+
+    <!-- ========== STATS BANNER ========== -->
+    <section class="stats" aria-label="Company highlights">
+      <div class="stats__inner container">
+        <div class="stats__item">
+          <span class="stats__number">15+</span>
+          <span class="stats__label">Years Experience</span>
+        </div>
+        <div class="stats__divider" aria-hidden="true"></div>
+        <div class="stats__item">
+          <span class="stats__number">170+</span>
+          <span class="stats__label">Projects Completed</span>
+        </div>
+        <div class="stats__divider" aria-hidden="true"></div>
+        <div class="stats__item">
+          <span class="stats__number">100%</span>
+          <span class="stats__label">Quality Assurance</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section class="about section" id="about">
+      <div class="container about__grid">
+        <div class="section__header about__header">
+          <span class="section__tag">About Us</span>
+          <h2 class="section__title">Built on Engineering Excellence</h2>
+        </div>
+        <div class="about__text">
+          <p>
+            <strong>Er. Ranjith, B.E.</strong> is a qualified Civil Engineer holding a Bachelor of
+            Engineering (B.E.) degree. As the lead engineer at Lakshmi Builder's &amp; Planner's, he
+            specializes in building construction, structural design, and project planning — delivering
+            comprehensive services from conceptual design and structural analysis to on-site
+            construction supervision.
+          </p>
+          <p>
+            Every project combines technical precision with practical field experience to create spaces
+            that are safe, sustainable, and beautifully executed — guided by rigorous standards,
+            transparent communication, and a commitment to timelines and budgets clients can rely on.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SERVICES SECTION ========== -->
+    <section class="services section section--dark" id="services">
+      <div class="container">
+        <div class="section__header section__header--center">
+          <span class="section__tag">What We Do</span>
+          <h2 class="section__title">Our Core Services</h2>
+          <p class="section__desc">
+            End-to-end civil engineering expertise tailored for residential, commercial,
+            and institutional builds.
+          </p>
+        </div>
+        <div class="services__grid">
+          <!-- Service 1 -->
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Building Construction &amp; Planning</h3>
+            <p class="service-card__text">
+              Complete construction management from blueprint to handover — site planning,
+              material coordination, and quality-controlled execution.
+            </p>
+          </article>
+          <!-- Service 2 -->
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 3L2 9l10 6 10-6-10-6zM2 15l10 6 10-6M2 12l10 6 10-6"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Structural Design &amp; Analysis</h3>
+            <p class="service-card__text">
+              RCC and steel structural design with load analysis, reinforcement detailing,
+              and code-compliant engineering for maximum safety.
+            </p>
+          </article>
+          <!-- Service 3 -->
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M9 7h6M9 11h6M9 15h4M5 3h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2z"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Project Estimation &amp; Valuation</h3>
+            <p class="service-card__text">
+              Accurate BOQ preparation, cost estimation, and property valuation to keep
+              your project financially transparent from day one.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS GALLERY ========== -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section__header section__header--center">
+          <span class="section__tag">Portfolio</span>
+          <h2 class="section__title">Featured Projects</h2>
+          <p class="section__desc">
+            Our complete portfolio — 23 residential, commercial, and structural engineering projects across Tamil Nadu.
+          </p>
+        </div>
+        <div class="projects__grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <img src="project1.jpeg" alt="Modern Residential House" class="project-card__img" loading="lazy" decoding="async" />
+            <div class="project-card__overlay">
+              <h3 class="project-card__title">Modern Residential House</h3>
+              <p class="project-card__meta">Residential · Full Construction</p>
+            </div>
+          </article>
+          <!-- Project 2 -->
+          <article class="project-card">
+            <img src="project2.jpeg" alt="Premium Duplex Design" class="project-card__img" loading="lazy" decoding="async" />
+            <div class="project-card__overlay">
+              <h3 class="project-card__title">Premium Duplex Design</h3>
+              <p class="project-card__meta">Residential · Structural Design</p>
+            </div>
+          </article>
+          <!-- Project 3 -->
+          <article class="project-card">
+            <img src="project3.jpeg" alt="Contemporary Villa" class="project-card__img" loading="lazy" decoding="async" />
+            <div class="project-card__overlay">
+              <h3 class="project-card__title">Contemporary Villa</h3>
+              <p class="project-card__meta">Residential · Planning &amp; Build</p>
+            </div>
+          </article>
+          <!-- Project 4 -->
+          <article class="project-card">
+            <img src="project4.jpeg" alt="Luxury Independent Home" class="project-card__img" loading="lazy" decoding="async" />
+            <div class="project-card__overlay">
+              <h3 class="project-card__title">Luxury Independent Home</h3>
+              <p class="project-card__meta">Residential · RCC Framework</p>
+            </div>
+          </article>
+          <!-- Project 5 -->
+          <article class="project-card">
+            <img src="project5.jpeg" alt="Modern G+2 Residence" class="project-card__img" loading="lazy" decoding="async" />
+            <div class="project-card__overlay">
+              <h3 class="project-card__title">Modern G+2 Residence</h3>
+              <p class="project-card__meta">Residential · Multi-Storey</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="project6.jpeg" alt="Executive Bungalow" class="project-card__img" loading="lazy" decoding="async" />
+            <div class="project-card__overlay">
+              <h3 class="project-card__title">Executive Bungalow</h3>
+              <p class="project-card__meta">Residential · Civil Works</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="project7.jpeg" alt="Premium Villa Estate" class="project-card__img" loading="lazy" decoding="async" />
+            <div class="project-card__overlay">
+              <h3 class="project-card__title">Premium Villa Estate</h3>
+              <p class="project-card__meta">Residential · Turnkey Project</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="project8.jpeg" alt="Smart Urban Home" class="project-card__img" loading="lazy" decoding="async" />
+            <div class="project-card__overlay">
+              <h3 class="project-card__title">Smart Urban Home</h3>
+              <p class="project-card__meta">Residential · Design &amp; Build</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="project9.jpeg" alt="Classic Tamil Nadu Villa" class="project-card__img" loading="lazy" decoding="async" />
+            <div class="project-card__overlay">
+              <h3 class="project-card__title">Classic Tamil Nadu Villa</h3>
+              <p class="project-card__meta">Residential · Heritage Style</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="project10.jpeg" alt="High-Rise Apartment Block" class="project-card__img" loading="lazy" decoding="async" />
+            <div class="project-card__overlay">
+              <h3 class="project-card__title">High-Rise Apartment Block</h3>
+              <p class="project-card__meta">Commercial · RCC Structure</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="project11.jpeg" alt="Commercial Showroom Build" class="project-card__img" loading="lazy" decoding="async" />
+            <div class="project-card__overlay">
+              <h3 class="project-card__title">Commercial Showroom Build</h3>
+              <p class="project-card__meta">Commercial · Planning</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="project12.jpeg" alt="Luxury Farmhouse Retreat" class="project-card__img" loading="lazy" decoding="async" />
+            <div class="project-card__overlay">
+              <h3 class="project-card__title">Luxury Farmhouse Retreat</h3>
+              <p class="project-card__meta">Residential · Premium Finish</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="project13.jpeg" alt="Premium Multi-Storey Residence" class="project-card__img" loading="lazy" decoding="async" />
+            <div class="project-card__overlay">
+              <h3 class="project-card__title">Premium Multi-Storey Residence</h3>
+              <p class="project-card__meta">Residential · Multi-Storey RCC</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="project14.jpeg" alt="Modern Minimalist Villa" class="project-card__img" loading="lazy" decoding="async" />
+            <div class="project-card__overlay">
+              <h3 class="project-card__title">Modern Minimalist Villa</h3>
+              <p class="project-card__meta">Residential · Architectural Design</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="project15.jpeg" alt="Luxury Gated Community House" class="project-card__img" loading="lazy" decoding="async" />
+            <div class="project-card__overlay">
+              <h3 class="project-card__title">Luxury Gated Community House</h3>
+              <p class="project-card__meta">Residential · Premium Build</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="project16.jpeg" alt="Contemporary Urban Duplex" class="project-card__img" loading="lazy" decoding="async" />
+            <div class="project-card__overlay">
+              <h3 class="project-card__title">Contemporary Urban Duplex</h3>
+              <p class="project-card__meta">Residential · Duplex Planning</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="project17.jpeg" alt="Traditional Indian Family Home" class="project-card__img" loading="lazy" decoding="async" />
+            <div class="project-card__overlay">
+              <h3 class="project-card__title">Traditional Indian Family Home</h3>
+              <p class="project-card__meta">Residential · Cultural Design</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="project18.jpeg" alt="Elegant Courtyard Residence" class="project-card__img" loading="lazy" decoding="async" />
+            <div class="project-card__overlay">
+              <h3 class="project-card__title">Elegant Courtyard Residence</h3>
+              <p class="project-card__meta">Residential · Landscape Integration</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="project19.jpeg" alt="Premium Commercial Complex" class="project-card__img" loading="lazy" decoding="async" />
+            <div class="project-card__overlay">
+              <h3 class="project-card__title">Premium Commercial Complex</h3>
+              <p class="project-card__meta">Commercial · Structural Framework</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="project20.jpeg" alt="Sustainable Eco Home" class="project-card__img" loading="lazy" decoding="async" />
+            <div class="project-card__overlay">
+              <h3 class="project-card__title">Sustainable Eco Home</h3>
+              <p class="project-card__meta">Residential · Green Building</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="project21.jpeg" alt="Grand Heritage Bungalow" class="project-card__img" loading="lazy" decoding="async" />
+            <div class="project-card__overlay">
+              <h3 class="project-card__title">Grand Heritage Bungalow</h3>
+              <p class="project-card__meta">Residential · Restoration &amp; Build</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="project22.jpeg" alt="Urban Terrace Apartment" class="project-card__img" loading="lazy" decoding="async" />
+            <div class="project-card__overlay">
+              <h3 class="project-card__title">Urban Terrace Apartment</h3>
+              <p class="project-card__meta">Residential · Terrace Design</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="project23.jpeg" alt="Signature Designer Villa" class="project-card__img" loading="lazy" decoding="async" />
+            <div class="project-card__overlay">
+              <h3 class="project-card__title">Signature Designer Villa</h3>
+              <p class="project-card__meta">Residential · Bespoke Engineering</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT FOOTER ========== -->
+    <footer class="contact section section--dark" id="contact">
+      <div class="container contact__grid">
+        <!-- Contact details -->
+        <div class="contact__info">
+          <span class="section__tag">Get In Touch</span>
+          <h2 class="section__title">Let's Build Something Lasting</h2>
+          <p class="contact__intro">
+            Ready to start your next project? Reach out for consultations, estimates,
+            or site visits — we respond within one business day.
+          </p>
+          <ul class="contact__details">
+            <li>
+              <span class="contact__label">Phone</span>
+              <a href="tel:+918939553452">+91 89395 53452</a>
+            </li>
+            <li>
+              <span class="contact__label">Email</span>
+              <a href="mailto:laksmit.3452@gmail.com">laksmit.3452@gmail.com</a>
+            </li>
+            <li>
+              <span class="contact__label">Office</span>
+              <address>Kothamangalam, Pudukkottai, Tamil Nadu, India</address>
+            </li>
+            <li>
+              <span class="contact__label">Instagram</span>
+              <a href="https://www.instagram.com/erthangaranjith?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">@erthangaranjith</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Contact form -->
+        <form
+          class="contact__form"
+          id="contact-form"
+          action="https://api.web3forms.com/submit"
+          method="POST"
+        >
+          <input type="hidden" name="access_key" value="f31ca3a0-970d-4815-b435-c33b9bf36eb2" />
+          <div class="form__group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="form__group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form__group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX" />
+          </div>
+          <div class="form__group">
+            <label for="message">Project Details</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+        </form>
+      </div>
+      <div class="footer__bar container">
+        <p>&copy; 2026 Lakshmi Builder's &amp; Planner's. All rights reserved.</p>
+        <a
+          href="https://www.instagram.com/erthangaranjith?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+          class="footer__instagram"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Instagram · @erthangaranjith</a>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- Floating social stack -->
+  <a
+    href="https://www.instagram.com/erthangaranjith?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+    class="floating-insta"
+    id="floating-insta"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Follow us on Instagram"
+    title="Instagram · @erthangaranjith"
+  >
+    <svg class="floating-insta__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+    </svg>
+  </a>
+  <a
+    href="https://wa.me/918939553452?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20Lakshmi%20Builder%27s%20services."
+    class="whatsapp-float"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Chat with us on WhatsApp"
+    title="Chat on WhatsApp"
+  >
+    <svg class="whatsapp-float__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <!-- Project gallery lightbox -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Project image preview">
+    <span class="close-btn" aria-label="Close preview">&times;</span>
+    <img class="lightbox-img" src="index.html" alt="" />
+  </div>
+
+  <!-- Smooth scroll + mobile nav (minimal JS) -->
+  <script>
+    const header = document.getElementById('header');
+    const navToggle = document.getElementById('nav-toggle');
+    const navMenu = document.getElementById('nav-menu');
+    const navLinks = document.querySelectorAll('.nav__link');
+
+    /* Sticky header shadow on scroll */
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('header--scrolled', window.scrollY > 40);
+    });
+
+    /* Mobile menu toggle */
+    navToggle.addEventListener('click', () => {
+      const open = navMenu.classList.toggle('nav__menu--open');
+      navToggle.setAttribute('aria-expanded', open);
+      navToggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    });
+
+    /* Close menu after link click */
+    navLinks.forEach((link) => {
+      link.addEventListener('click', () => {
+        navMenu.classList.remove('nav__menu--open');
+        navToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    /* Project gallery lightbox */
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = lightbox.querySelector('.lightbox-img');
+    const closeBtn = lightbox.querySelector('.close-btn');
+    const projectImages = document.querySelectorAll('.projects__grid .project-card__img');
+
+    function openLightbox(src, alt) {
+      lightboxImg.src = src;
+      lightboxImg.alt = alt || 'Project preview';
+      lightbox.classList.add('lightbox--active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+      lightbox.classList.remove('lightbox--active');
+      document.body.style.overflow = '';
+      lightboxImg.src = '';
+      lightboxImg.alt = '';
+    }
+
+    projectImages.forEach((img) => {
+      img.addEventListener('click', (e) => {
+        e.stopPropagation();
+        openLightbox(img.src, img.alt);
+      });
+    });
+
+    closeBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      closeLightbox();
+    });
+
+    lightbox.addEventListener('click', closeLightbox);
+
+    lightboxImg.addEventListener('click', (e) => {
+      e.stopPropagation();
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && lightbox.classList.contains('lightbox--active')) {
+        closeLightbox();
+      }
+    });
+
+  </script>
+</body>
+</html>
